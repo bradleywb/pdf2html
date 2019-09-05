@@ -1,0 +1,25 @@
+# EditorConfig is awesome: http://EditorConfig.org
+# All avaialbe properties: https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties
+
+# Match multiple file types with brace expansion notation (i.e. [*.{html,xml}])
+
+# top-most EditorConfig file
+root = true
+
+# Defaults
+## Unix-style newlines
+## Newline ending every file
+## Trim trailing whitespace from lines
+## UTF-8 character set
+## Spaces for indentation
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+indent_style = space
+
+# File type specific settings
+
+[*.{js,json}]
+indent_size = 2

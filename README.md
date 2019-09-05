@@ -13,7 +13,7 @@ A small script to convert PDF files into HTML
 
 ## Available Options
 - File: `--file={path/to/file.pdf}`
-- Directory: '--dir={path/to/files}'
+- Directory: `--dir={path/to/files}`
 
 When the file option is used, this program will convert only a single PDF file. The directory option can be used to batch process all PDF files within a directory (not recusively).
 
